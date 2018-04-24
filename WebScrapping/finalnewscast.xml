@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<newscast>
+
+<site name="http://www.thehindu.com/">
+<article>article[0-9]+.ece</article>
+<startcontent>0</startcontent>
+<endcontent>4</endcontent>
+<content>//p</content>
+<title>og:title</title>
+<desc>og:description</desc>
+<img>og:image</img>
+<key>keywords</key>
+<url>og:url</url>
+<name>og:site_name</name>
+<type>og:type</type>
+<t-img>twitter:image</t-img>
+</site>
+
+
+<site name="http://timesofindia.indiatimes.com/">
+<article>articleshow/[0-9]+.cms</article>
+<startcontent>0</startcontent>
+<endcontent>4</endcontent>
+<content>//arttextxml</content>
+<title>og:title</title>
+<desc>og:description</desc>
+<img>og:image</img>
+<key>keywords</key>
+<url>og:url</url>
+<name>og:site_name</name>
+<type>og:type</type>
+<t-img>twitter:image</t-img>
+</site>
+
+</newscast>

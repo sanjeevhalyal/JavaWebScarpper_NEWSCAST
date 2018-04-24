@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<newscast>
+
+<site name="http://www.thehindu.com/">
+<article>article[0-9]+.ece</article>
+<start>0</start>
+<end>4</end>
+<content>//p</content>
+</site>
+
+<site name="http://timesofindia.indiatimes.com/">
+<article>[0-9]+.cms</article>
+<start>0</start>
+<end>4</end>
+<content>//p</content>
+</site>
+</newscast>
